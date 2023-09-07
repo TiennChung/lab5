@@ -1,0 +1,138 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    background: #355664;
+    color: #fcfcfc;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Forte', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px 0 0;
+}
+
+h3 {
+    text-align: right;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+nav {
+    background-color: #355664;
+    padding: 0px 5px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+nav ul li:nth-child(1) a {
+    color: #7CB3E9;
+    text-transform: lowercase;
+}
+
+nav ul li:nth-child(2) a {
+    color: #8EC45B;
+}
+
+nav ul li:nth-child(3) a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 15px;
+}
+
+article {
+    height: 390px;
+    Background: #213E4A;
+    Padding: 20px;
+    Margin: 0 0 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+    border-bottom: 3px solid #416371;
+    padding-bottom: 20px;
+}
+
+.article-content {
+    margin: 15px 0;
+}
+
+figure {
+    Border: 3px solid #142830;
+    float: right;
+    Height: 300px;
+    Width: 500px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+img {
+    Width: 100%;
+    Height: 100%;
+    Border: None;
+}
+
+.article-content p {
+    line-height: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.article-content p:nth-of-type(1){
+    color: #8EC45B;
+}
+
+footer {
+    border-top: 3px solid #142830;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
